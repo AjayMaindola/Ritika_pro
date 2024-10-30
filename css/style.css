@@ -67,25 +67,60 @@
 }
 /* mobile menue */
 #mb-text ul li {
-    padding: 0px 15px;
-    padding-bottom: 10px;
-    position: relative;
-    transition: 0.5s;
-    overflow: hidden;
-  }
+  padding: 0px 15px;
+  padding-bottom: 10px;
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+}
 #mb-text ul li::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 35%;
-    height: 2px;
-    background-color: turquoise;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease-in-out;
-  }
-  #mb-text ul li:hover::before {
-    transform: scaleX(1);
-  }
-  /* mobile menue */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  height: 2px;
+  background-color: turquoise;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+#mb-text ul li:hover::before {
+  transform: scaleX(1);
+}
+/* mobile menue */
+/* HEDAER CLOSED */
+/* ====================================================================================== */
+
+.top-banner {
+  /* border: 1px solid red; */
+  background-image: url(../images/banner.webp);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.overly-black {
+  background-color: rgba(0, 0, 0, 0.524);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overly-black h1 {
+  color: white;
+  font-size: 110px;
+  padding-bottom: 15px;
+}
+.overly-black h3 {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 10px;
+  padding-bottom: 30px;
+}
+.overly-black button{
+  padding: 10px 50px;
+  background-color: #3eccb5;
+}
+
