@@ -59,3 +59,39 @@
   padding-bottom: 60px;
 }
 }
+
+
+/* for TAB View */
+/* ======================================= */
+@media only screen and (min-width: 575.9px) and (max-width: 1200.9px){
+  .col-border {
+    /* border: 1px solid red; */
+   
+    width: 90%;
+}
+.col-border-p1 {
+  padding: 30px 20px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+.col-border-p2 {
+  text-align: justify;
+  padding: 15px 20px;
+  padding-bottom: 90px;
+}
+  /* COMMUNITY section start */
+/* ============================== */
+.community h2 {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+.community-mid-p {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+}
+
+
