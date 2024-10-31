@@ -1,16 +1,61 @@
-@media only screen and (min-width: 200px) and (max-width: 575.9px){
-    .overly-black h1{
-        color: white;
-        font-size: 55px;
-        text-align: center;
-        padding-bottom: 15px;
-      }
-      .overly-black h3{
-        color: white;
-        font-size: 16px;
-        letter-spacing: 7px;
-        text-align: center;
-        line-height: 30px;
-      }
+@media only screen and (min-width: 200px) and (max-width: 575.9px) {
+  .overly-black h1 {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .overly-black h3 {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 7px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .col-border {
+    width: 85%;
+    padding-bottom: 10px;
+    margin-top: 50px;
+  }
 
-    }
+  /* About Section Start */
+/* =========================== */
+  .about {
+    background-position: top;
+    padding-bottom: 80px;
+  }
+  .row-mid {
+    padding-top: 50px;
+  }
+  .col-border h2 {
+    font-size: 35px;
+    padding-top: 40px;
+  }
+  .col-border-p1{
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 14px;
+  }
+  .col-border-p2{
+    text-align: justify;
+    padding: 0px 20px;
+    padding-bottom: 30px;
+    font-size: 14px;
+  }
+  /* COMMUNITY section start */
+/* ============================== */
+.community{
+  margin-top: 10px;
+ 
+}
+.community h2{
+  padding-top:30px ;
+  padding-bottom: 10px;
+}
+.community-mid-p{
+  width: 80%;
+  text-align: center;
+  padding-bottom: 60px;
+}
+}
