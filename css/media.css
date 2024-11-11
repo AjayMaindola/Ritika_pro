@@ -1,9 +1,11 @@
 @media only screen and (min-width: 200px) and (max-width: 575.9px) {
   .overly-black h1 {
     color: white;
-    font-size: 55px;
+    font-size: 30px;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+    line-height: 50px;
   }
   .overly-black h3 {
     color: white;
@@ -11,12 +13,19 @@
     letter-spacing: 7px;
     text-align: center;
     line-height: 30px;
+   
   }
   .col-border {
     width: 85%;
     padding-bottom: 10px;
     margin-top: 50px;
   }
+  .modal-inner{
+    margin-top: 50px;
+    }
+    .modal-IIend-cell{
+          margin-top: 100px;
+    }
 
   /* About Section Start */
 /* =========================== */

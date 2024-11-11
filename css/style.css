@@ -94,7 +94,7 @@
 
 .top-banner {
   /* border: 1px solid red; */
-  background-image: url(../images/banner.webp);
+  background-image: url(../images/HOME-PAGEPic.png);
   background-position: top;
   background-size:cover;
   background-repeat: no-repeat;
@@ -111,24 +111,37 @@
 }
 .overly-black h1 {
   color: white;
-  font-size: 110px;
-  padding-bottom: 15px;
+  font-size: 45px;
+  padding-bottom: 3px;
+  width: 70%;
 }
 .overly-black h3 {
   color: white;
   font-size: 22px;
   letter-spacing: 10px;
   padding-bottom: 30px;
+
 }
 .overly-black button{
   padding: 10px 50px;
   background-color: #3eccb5;
 }
+.modal-inner{
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.modal-IIend-cell{
+  /* background-color: brown; */
+  margin-top: 180px;
+}
+.modal-class h1 {
+  text-align: center;
+}
 
 /* About Section Start */
 /* =========================== */
 .about{
-  background-image: url(../images/banner2.webp);
+  background-image: url(../images/About.png);
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
@@ -155,13 +168,18 @@
 .col-border-p1{
   padding: 50px 50px;
   padding-bottom: 10px;
-  text-align: center;
+  text-align: justify;
 }
 .col-border-p2{
-  text-align: center;
+  text-align: justify;
   padding: 15px 50px;
   padding-bottom: 90px;
 }
+/* .col-border-p3{
+  text-align: justify;
+  padding: 0px 50px;
+  padding-bottom: 60px;
+} */
 /* About Section Closed */
 /* COMMUNITY section start */
 /* ============================== */
