@@ -230,6 +230,119 @@
 .member-img svg{
   width: 100%;
 }
+.member-heading h5{
+  font-size: 22px;
+}
+
+/* spaces  section start*/
+/* ============================= */
+.spaces {
+  background-color: #3eccb5;
+}
+.spaces h2{
+font-size: 50px;
+font-weight: bolder;
+padding: 20px 0px;
+}
+/* first-part */
+/* ----------------- */
+.spaces-Ist{
+  margin: 65px 0px 0px 0px;
+  padding: 0px;
+ 
+}
+.spaces-left-1 {
+  background-image: url(../images/space1.png);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-clip:border-box;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 50%;
+  height: 450px;
+}
+.spaces-left-2 {
+  background-image: url(../images/spaces3.webp);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-clip:border-box;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 50%;
+  height: 450px;
+}
+.spaces-left-3 {
+  background-image: url(../images/spaces6.webp);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-clip:border-box;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 50%;
+  height: 450px;
+}
+
+.spaces-right-1 {
+  background-image: url(../images/spaces2.webp);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 50%;
+  height: 450px;
+}
+.spaces-right-2 {
+  background-image: url(../images/spaces4.webp);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 50%;
+  height: 450px;
+}
+.spaces-right-3 {
+  background-image: url(../images/stripes5.jpg);
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 50%;
+  height: 450px;
+}
+/* For hover */
+
+/* .spaces-right-3 :hover.overlay-spaces2{
+  display: block;
+} */
+.overlay-spaces1{
+  width: 100%;
+  height: 450px;
+  background: #0000008e;
+  /* display: none; */
+}
+.overlay-spaces2{
+  width: 100%;
+  height: 450px;
+  background: #0000008e;
+  /* display: none; */
+}
+
+
 
 
     
