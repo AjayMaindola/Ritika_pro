@@ -35,3 +35,17 @@ btnElement.addEventListener("click",()=>{
 closebtnElement.addEventListener("click",()=>{
     mainElement.classList.remove("activeModal") 
 })
+
+
+// for right
+let spaces_m_btn=document.querySelector("#spaces_m_btn");
+let spaces_m_Right=document.querySelector(".spaces_m_Right");
+let spaces_pops_inner_btn=document.querySelector(".spaces_m_Right span")
+
+spaces_m_btn.addEventListener("click",()=>{
+// console.log("hello")
+spaces_m_Right.classList.add("activeModal_1")
+})
+spaces_pops_inner_btn.addEventListener("click",()=>{
+  spaces_m_Right.classList.remove("activeModal_1")
+})
