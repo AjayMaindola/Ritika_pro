@@ -81,9 +81,12 @@
 /* spaces  section start*/
 /* ============================= */
 .spaces h2{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
-  padding: 15px 0px;
+  padding: 15px 0px 0px 15px;
+  }
+  .spaces-pops>h2>span{
+    font-size: 22px;
   }
   .spaces p{
     font-size: 15px;
@@ -91,109 +94,13 @@
     padding: 5px 0px;
    margin: auto;
     }
-.spaces-Ist{
+   .spaces-Ist{
   margin: 30px 0px 0px 0px;
  flex-direction: column;
 }
-.spaces-left-1 {
-  background-image: url(../images/space1.png);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-clip:border-box;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
- 
-}
-.spaces-left-2 {
-  background-image: url(../images/spaces3.webp);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-clip:border-box;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
- 
-}
-.spaces-left-2 {
-  background-image: url(../images/spaces3.webp);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-clip:border-box;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
- 
-}
-.spaces-left-3 {
-  background-image: url(../images/spaces6.webp);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-clip:border-box;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
- 
-}
 
-.spaces-right-1 {
-  background-image: url(../images/spaces2.webp);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position-y: center;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
-}
-.spaces-right-2 {
-  background-image: url(../images/spaces4.webp);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position-y: center;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
-}
-.spaces-right-3 {
-  background-image: url(../images/stripes5.jpg);
-  background-position: top;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position-y: center;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-basis: 100%;
- 
-}
-.overlay-spaces1{
-  width: 100%;
-  height: 220px;
-  background: #0000001f;
-}
-.overlay-spaces2{
-  width: 100%;
-  height: 230px;
-  background: #0000001f;
-}
+
+
 
 }
  /* muember section  */

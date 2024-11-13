@@ -22,3 +22,16 @@ $('#teamSlider').owlCarousel({
     }
   }
 })
+
+// FOR POP
+let mainElement=document.querySelector(".spaces-pops");
+let btnElement=document.querySelector("#spaces-pops");
+let closebtnElement=document.querySelector(".spaces-pops span")
+
+
+btnElement.addEventListener("click",()=>{
+    mainElement.classList.add("activeModal") 
+})
+closebtnElement.addEventListener("click",()=>{
+    mainElement.classList.remove("activeModal") 
+})
