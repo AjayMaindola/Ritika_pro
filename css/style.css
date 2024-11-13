@@ -241,7 +241,7 @@
   font-weight: bolder;
   padding: 20px 0px;
 }
-/* first-part */
+/* first-part left */
 /* ----------------- */
 .spaces-Ist {
   margin: 65px 0px 0px 0px;
@@ -275,6 +275,7 @@
 .left-side-spaces:hover .spaces-overley {
   transform: scale(1);
 }
+
 .spaces-overley button {
   background-color: transparent;
   border: none;
@@ -341,6 +342,36 @@ color: black;
   padding: 25px 80px;
   text-align: justify;
 }
+/* right part work start */
 .right-side-spaces img {
   width: 100%;
 }
+.right-side-spaces{
+  position: relative;
+}
+.spaces-overley2{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  /* transition: 0.5s; */
+  transform: scale(0);
+  transform-origin: center;
+}
+.right-side-spaces:hover .spaces-overley{
+  transform: scale(1);
+}
+.spaces-overley button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+}
+

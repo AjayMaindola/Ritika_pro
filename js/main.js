@@ -23,7 +23,7 @@ $('#teamSlider').owlCarousel({
   }
 })
 
-// FOR POP
+// FOR POP1
 let mainElement=document.querySelector(".spaces-pops");
 let btnElement=document.querySelector("#spaces-pops");
 let closebtnElement=document.querySelector(".spaces-pops span")
